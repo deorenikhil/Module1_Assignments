@@ -29,7 +29,7 @@ LunchCheckerController.$inject = ['$scope'];
         return "Please enter data first";
       }else{
         $scope.fontStyle = {"color":"green"};
-        $scope.borderStyle = {"border-color":"red"};
+        $scope.borderStyle = {"border-color":"green"};
         return "Enjoy !"
       }
 };
